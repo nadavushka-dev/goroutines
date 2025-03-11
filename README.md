@@ -7,9 +7,9 @@ A little burger shop that can make orders in a asynchronic way
 
 ### Explenation:
 Our burger shop can do only 3 things (but we do it well(-done?))
-- makeBuger
-- makeChips
-- makeDrink
+- make a burger
+- make chips
+- make a drink
 
 Each function takes some time (differ between functions).
 
