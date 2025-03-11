@@ -3,7 +3,7 @@
 A little burger shop that can make orders in a asynchronic way
 
 ### Why?
-- learn go routins 
+- learn go routins and cocurrency
 
 ### Explenation:
 Our burger shop can do only 3 things (but we do it well(-done?))
