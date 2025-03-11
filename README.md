@@ -6,7 +6,7 @@ A little burger shop that can make orders in a asynchronic way
 - learn go routins 
 
 ### Explenation:
-We have 3 functionalities out burger shop.
+Our burger shop can do only 3 things (but we do it well(-done?))
 - makeBuger
 - makeChips
 - makeDrink
