@@ -37,7 +37,7 @@ func makeBurger(respch chan *Order, wg *sync.WaitGroup) {
 
 	msg := "Done making burgers"
 
-	respch <- &Order{msg}
+	respch <- &Order{msg: msg}
 
 	wg.Done()
 }
@@ -48,7 +48,7 @@ func makeChips(respch chan *Order, wg *sync.WaitGroup) {
 
 	msg := "Done making chips"
 
-	respch <- &Order{msg}
+	respch <- &Order{msg: msg}
 
 	wg.Done()
 }
@@ -59,7 +59,7 @@ func makeDrink(respch chan *Order, wg *sync.WaitGroup) {
 
 	msg := "Done making drink"
 
-	respch <- &Order{msg}
+	respch <- &Order{msg: msg}
 
 	wg.Done()
 }
